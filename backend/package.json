@@ -1,0 +1,19 @@
+{
+  "name": "pocoes-e-solucoes-api",
+  "version": "1.0.0",
+  "description": "Web Service para a loja Poções e Soluções",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Gabriel de Araujo Lima",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "sequelize": "^6.37.0",
+    "sqlite3": "^5.1.7"
+  }
+}
