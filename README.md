@@ -1,21 +1,9 @@
-```python
-markdown_content = """# Poções e Soluções - Web Service & E-Commerce
-
-Este projeto consiste em um Web Service completo e uma interface frontend dinâmica desenvolvidos para a loja **Poções e Soluções**, de propriedade de *Anna Innabelle Merigold*, localizada no Beco da Última Saída. O sistema permite o gerenciamento de estoque pela administração e a visualização do catálogo de produtos pelos clientes.
-
-Trabalho prático desenvolvido para a disciplina **SCC0219 - Introdução ao Desenvolvimento Web**.
-
----
-
 ## 🚀 Estrutura do Projeto
 
 O projeto está dividido de forma modular entre Backend (Web Service RESTful) e Frontend (Interface do Usuário):
 
 
 ```
-
-```text
-README.md gerado com sucesso.
 
 ```text
 projeto-pocoes/
@@ -98,7 +86,7 @@ Com o servidor rodando em segundo plano:
 
 ---
 
-## 📡 Documentação da API (Web Service)
+## Documentação da API (Web Service)
 
 O backend expõe as seguintes rotas na URL base `http://localhost:3000`:
 
@@ -110,7 +98,7 @@ O backend expõe as seguintes rotas na URL base `http://localhost:3000`:
 
 ---
 
-## 🎨 Especificações de Design e Requisitos Atendidos
+## Especificações de Design e Requisitos Atendidos
 
 * **Tipografia:** Uso estrito da fonte clássica e sóbria **Gill Sans** (com fallbacks adequados no CSS).
 * **Identidade Visual:** Paleta de cores inteiramente escura, adequada à atmosfera mística da loja de poções.
@@ -118,18 +106,4 @@ O backend expõe as seguintes rotas na URL base `http://localhost:3000`:
 * **Dinamismo (AJAX):** Listagem, inserção e remoção feitas de forma assíncrona com JavaScript vanilla (Fetch API), eliminando a necessidade de recarregar as páginas.
 * **Estrutura de Dados:** Cada poção contém rigorosamente os campos `nome`, `imagem` (caminho/URL), `descricao` e `preco`.
 """
-
-with open("README.md", "w", encoding="utf-8") as file:
-file.write(markdown_content)
-
-print("README.md gerado com sucesso.")
-
-```
-O seu arquivo Markdown está pronto
-[file-tag: code-generated-file-0-1782434093695473409]
-
-O README.md foi gerado com todas as instruções de configuração, execução, endpoints e requisitos do projeto para garantir a sua nota máxima. 
-
-Basta colocar este arquivo na raiz do seu projeto (junto às pastas `backend` e `frontend`). Se precisar de mais alguma coisa para a entrega, é só avisar!
-
 ```
